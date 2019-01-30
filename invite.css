@@ -9,8 +9,9 @@ body,html{
 /* Invite Front */
 /* entire container, keeps perspective */
 .flip-container{
-    width: 600px;
-    height: 350px;
+    width: 865px;
+    height: 485px;
+    margin: 0 auto;
     /*perspective*/
     -webkit-perspective:1000;
     -moz-perspective:1000;
@@ -29,10 +30,10 @@ body,html{
     transform:rotateY(180deg);
 }
 
-.front, .back {
+/* .front, .back {
     width: 600px;
     height: 350px;
-}
+} */
 
 .frontImg, .backImg {
     width: 100%;
@@ -85,16 +86,16 @@ body,html{
 
 /* Enveope Fold - Back*/
 .back {
-    width: 650px;
-    height: 350px;
+    width: 865px;
+    height: 485px;
     margin-top: 250px;
     position: relative;
 }
 
 .card {
 	position: relative;
-	width: 600px;
-	min-height:300px;
+	width: 835px;
+	min-height: 425px;
 	height: auto;
 	background: #fff;
 	margin: 0 auto;
@@ -133,25 +134,23 @@ body,html{
 	transform:rotateX(0deg);
 	z-index: 500;
 } */
-/* .bottom{
-	width: 650px;
-	height: 190px;
+.bottom{
+	width: 865px;
+	height: 485px;
 	position: absolute;
-	background: #2b67cb;
-	top: 160px;
-	border-radius:0 0 15px 15px;
+	top: 0px;
 	z-index: 300; 
-} */
+}
 
 .open{
     padding-top: 150px;
-	transform-origin:top;
+    transform-origin:top;
     transform:rotateX(180deg);
     /* animation-delay:1.5s; */
-	transition:transform 0.7s,border 0.7s,z-index 0.7s ease-in-out;
+    transition:transform 0.7s,border 0.7s,z-index 0.7s ease-in-out;
     transition-delay:0.7s;
     border-top: 200px solid #2c3e50;
-	z-index: 200;
+    z-index: 200;
 }
 
 .pull{
