@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Lawrence and Regina are getting married </title>
+    <title>Animated envelope</title>
+
     <!-- Javascript -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script type="text/javascript" src="app.js"></script>
@@ -13,32 +14,49 @@
     <!--CSS Stylesheet-->
     <link rel="stylesheet" type="text/css" href="style.css">   
     <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative:900|Nanum+Pen+Script|Qwigley|Rock+Salt|Ruthie|Stalemate" rel="stylesheet">
+    <!-- Typewriter Font -->
+    <link href="https://fonts.googleapis.com/css?family=Special+Elite" rel="stylesheet">
 </head>
 <body>
-    <!-- Home -->
-    <div class="container-fluid home">
-        <div class="homeText">
-            <h3 class="title">Lawrence and Regina</h3>
-            <h6>February 02, 2020 | Queenstown, NZ</h6>
-            <button type="button" class="btn btn-outline-dark" id="rsvp">RSVP</button>
+    <!-- FLIP -->
+    <div class="flip-container">
+        <div class="flipper">
+            <!-- ENVELOPE FRONT -->
+            <div class="front">
+                <img class="frontImg" src="images/savethedate.png">
+            </div>
+            <!-- ENVELOPE BACK -->
+            <div class="back envelope">
+                <div class="card">
+                    <div class="text">
+                        <p>THE PLEASURE OF YOUR PRESENCE IS REQUESTED AT THE MARRIAGE UNITING </p>
+                            <p> REGINA LO AND LAWRENCE LIAO 
+                            <br> SUNDAY 02 FEBRUARY 2020 
+                            <br> TEMECULA, CA </p>
+                        <p>WE HOPE YOU WILL JOIN US TO CELEBRATE</p>
+                        <p>FORMAL INVITATION TO FOLLOW </p>
+                    </div>
+                    <iframe class="video" src="https://www.youtube.com/embed/_9dwfjPjYuw?autoplay=1&modestbranding=1&autohide=1&showinfo=0&controls=0&loop=1&playlist=_9dwfjPjYuw" frameborder="0" allowfullscreen allow="autoplay"></iframe>        
+                </div>
+
+                <div class="background">
+                    <img class="backgroundImg" src="images/background.png">
+                </div>
+
+                <div class="top">
+                    <img class="flapImg" src="images/top.png">
+                </div> 
+
+                <div class="bottom">
+                    <img class="backImg" src="images/back.png">
+                </div>
+                
+                <!-- <span class="left"></span> -->
+                <!-- <span class="right"></span> -->
+            </div>
         </div>
     </div>
-
-    <!-- Login -->
-    <div class="container-fluid login hidden">
-        <form>
-            <div class="form-group">
-                <label for="username">Username</label>
-                <input type="username" class="form-control form-control-sm" id="username" aria-describedby="emailHelp" placeholder="Enter Username">
-            </div>
-            <div class="form-group">
-                <label for="password">Password</label>
-                <input type="password" class="form-control form-control-sm" id="password" placeholder="Password">
-            </div>
-            <button type="submit" class="btn btn-outline-dark">Login</button>
-        </form>
-    </div>
-
+    
     <script
     src="https://code.jquery.com/jquery-3.3.1.min.js"
     integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
