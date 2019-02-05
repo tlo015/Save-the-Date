@@ -118,7 +118,7 @@ button {
 }
 
 p {
-	margin: 0 0 7px 0;
+	margin: 0 0 9px 0;
 }
 
 .group {
@@ -270,7 +270,7 @@ p {
 	}
 
 	.text {
-		font-size: 1.2vw;
+		font-size: 1.13vw;
 	}
 
 	p {
@@ -278,6 +278,15 @@ p {
 	}
 }
 
+@media (min-width:922px) {
+	.text {
+		font-size: 1.2vw;
+	}
+
+	p {
+		margin: 0 0 13px 0;
+	}
+}
 
 @media (min-width:1150px) {
 	
@@ -286,11 +295,11 @@ p {
 	}
 
 	.text {
-		font-size: 1.3vw;
+		font-size: 1.25vw;
 	}
 
 	p {
-		margin: 0 0 12px 0;
+		margin: 0 0 15px 0;
 	}
 
 	@-webkit-keyframes message_animation {
@@ -341,10 +350,10 @@ p {
 
 @media (min-width:1265px) {
 	.text {
-		font-size: 1.35vw;
+		font-size: 1.28vw;
 	}
 
 	p {
-		margin: 0 0 12px 0;
+		margin: 0 0 18px 0;
 	}
 }
