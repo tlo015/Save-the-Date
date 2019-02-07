@@ -220,12 +220,12 @@ p {
 		transition: 1s ease-in-out;
 	}
 	50%{
-		transform:translatey(-340px);
+		transform:translatey(-40vw);
 		z-index: 300;
 		transition: 1s ease-in-out;
 	}
 	51%{
-		transform:translatey(-340px);
+		transform:translatey(-40vw);
 		z-index: 350;
 		transition: 1s ease-in-out;
 	}
@@ -242,12 +242,12 @@ p {
 		transition: 1s ease-in-out;
 	}
 	50%{
-		transform:translatey(-340px);
+		transform:translatey(-40vw);
 		z-index: 300;
 		transition: 1s ease-in-out;
 	}
 	51%{
-		transform:translatey(-340px);
+		transform:translatey(-40vw);
 		z-index: 350;
 		transition: 1s ease-in-out;
 	}
@@ -300,51 +300,6 @@ p {
 
 	p {
 		margin: 0 0 15px 0;
-	}
-
-	@-webkit-keyframes message_animation {
-		0%{
-			transform:translatey(0px);
-			z-index: 300;
-			transition: 1s ease-in-out;
-		}
-		50%{
-			transform:translatey(-500px);
-			z-index: 300;
-			transition: 1s ease-in-out;
-		}
-		51%{
-			transform:translatey(-500px);
-			z-index: 350;
-			transition: 1s ease-in-out;
-		}
-		100%{
-			transform:translatey(0px);
-			z-index: 350;
-			transition: 1s ease-in-out;
-		}
-	}
-	@keyframes message_animation {
-		0%{
-			transform:translatey(0px);
-			z-index: 300;
-			transition: 1s ease-in-out;
-		}
-		50%{
-			transform:translatey(-500px);
-			z-index: 300;
-			transition: 1s ease-in-out;
-		}
-		51%{
-			transform:translatey(-500px);
-			z-index: 350;
-			transition: 1s ease-in-out;
-		}
-		100%{
-			transform:translatey(0px);
-			z-index: 350;
-			transition: 1s ease-in-out;
-		}
 	}
 }
 
